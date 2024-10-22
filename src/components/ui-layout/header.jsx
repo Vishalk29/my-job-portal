@@ -81,6 +81,8 @@ const Header = () => {
           <SignIn
             signUpForceRedirectUrl="/onboarding"
             signUpFallbackRedirectUrl="/onboarding"
+            forceRedirectUrl="/onboarding"
+            signUpUrl="/onboarding"
           />
         </div>
       )}
