@@ -20,8 +20,6 @@ createRoot(document.getElementById("root")).render(
       }}
       publishableKey={PUBLISHABLE_KEY}
       afterSignOutUrl="/"
-      signInFallbackRedirectUrl="/onboarding"
-      signUpFallbackRedirectUrl="/onboarding"
     >
       <App />
     </ClerkProvider>

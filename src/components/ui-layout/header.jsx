@@ -81,6 +81,9 @@ const Header = () => {
           <SignIn
             signUpForceRedirectUrl="/onboarding"
             signUpFallbackRedirectUrl="/onboarding"
+            // afterSignInUrl="/dashboard"   // Optional, if you want a separate route after sign-in
+            afterSignUp={() => navigate("/onboarding")} // Handle redirection after successful sign-up
+            afterSignIn={() => navigate("/onboarding")} // Optional, handle redirection after successful sign-in
           />
         </div>
       )}
